@@ -1,0 +1,12 @@
+a = malloc 100
+b = malloc 200
+c = malloc 300
+free b
+d = malloc 50
+e = malloc 40
+f = malloc 60
+free a
+free c
+free d
+free f
+free e
